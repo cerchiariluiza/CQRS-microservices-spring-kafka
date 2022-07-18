@@ -1,6 +1,6 @@
-package com.banking.account.commom.events;
+package com.banking.cqrs.core.messages;
 
-import com.banking.cqrs.core.events.BaseEvent;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,8 +10,6 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class DepositarDinheiroEvent extends BaseEvent {
-
-    private double amount;
-
+public abstract class Message {
+    private String id;
 }
