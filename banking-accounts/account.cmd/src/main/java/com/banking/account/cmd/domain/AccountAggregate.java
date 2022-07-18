@@ -86,6 +86,7 @@ public class AccountAggregate extends AggregateRoot {
     public void apply(FecharContaEvent event){
         this.id = event.getId();
         this.active = false;
+
     }
 
 

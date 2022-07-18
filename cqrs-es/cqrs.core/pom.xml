@@ -14,7 +14,7 @@
 	<name>cqrs.core</name>
 	<description>CQRS event source framework project</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 
