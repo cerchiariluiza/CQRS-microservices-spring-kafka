@@ -40,6 +40,7 @@
 		</dependency>
 
 
+
 		<dependency>
 			<groupId>com.banking</groupId>
 			<artifactId>cqrs.core</artifactId>
