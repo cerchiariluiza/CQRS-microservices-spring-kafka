@@ -10,6 +10,9 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bankingAccount?createDatabaseIfNotExist=true
     username: "root"
+
+
+
     password: "senhabasemudar"
   kafka:
     listener:
